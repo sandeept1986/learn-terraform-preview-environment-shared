@@ -73,6 +73,6 @@ resource "aws_acm_certificate" "cert" {
 }
 
 resource "vercel_project" "hashicups" {
-  name      = "hashicups"
+  name      = "hashicupsapp"
   framework = "nextjs"
 }
